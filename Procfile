@@ -1,0 +1,1 @@
+web: gunicorn sitFic.wsgi:application --bind 0.0.0.0:8000

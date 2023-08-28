@@ -8,6 +8,6 @@ done
 echo "database is ok!"
 
 python manage.py migrate
-python magage.py collectstatic --noinput
+python manage.py collectstatic --noinput
 
 exec "$@"
